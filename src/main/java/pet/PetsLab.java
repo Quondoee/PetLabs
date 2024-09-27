@@ -12,7 +12,7 @@ public class PetsLab {
 
         System.out.print("Enter the number of pets: ");
         int numberOfPets = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
 
         List<Pets> petList = new ArrayList<>();
 
